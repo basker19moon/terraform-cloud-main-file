@@ -1,4 +1,4 @@
-module "network" {
+module "dev_vpc_1" {
   source             = "app.terraform.io/basker_bddevops/network/modules"
   version            = "1.0.0"
   vpc_cidr           = "10.90.0.0/16"
