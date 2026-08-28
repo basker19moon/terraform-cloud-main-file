@@ -11,7 +11,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "sais3bucket236"
+    bucket = "wwwbddevopsxyz"
     key    = "dev-modules.tfstate"
     region = "us-east-1"
   }
