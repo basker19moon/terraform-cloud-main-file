@@ -1,5 +1,6 @@
 module "dev_sg_1" {
-  source        = "../modules/sg"
+  source      = "app.terraform.io/basker_bddevops/compute/modules"
+  version     = "1.0.0"
   vpc_name      = module.dev_vpc_1.vpc_name
   vpc_id        = module.dev_vpc_1.vpc_id
   environment   = module.dev_vpc_1.environment
