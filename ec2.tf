@@ -44,6 +44,6 @@ module "dev_iam_1" {
   source              = "app.terraform.io/basker_bddevops/iam/modules"
   version             = "1.0.0"
   environment         = module.dev_vpc_1.environment
-  rolename            = "SaiTMRole"
-  instanceprofilename = "SaiTMinstprofile"
+  rolename            = "BDTMRole"
+  instanceprofilename = "BDTMinstprofile"
 }
